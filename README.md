@@ -1,5 +1,6 @@
 # PackIssue
 This repo is setup to show an issue I am encountering with dotnet pack on the 5.0.201 SDK.
+Related [github issue](https://github.com/NuGet/Home/issues/10724)
 
 ## Reproduction steps
 1. Set the .NET version in the `global.json` file
