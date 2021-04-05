@@ -3,7 +3,7 @@
     //Works
     //"version": "5.0.100", 
     //Does not work
-    //"version": "5.0.201",
+    "version": "5.0.201",
     "allowPrerelease": false
   }
 }
