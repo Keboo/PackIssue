@@ -12,3 +12,6 @@ Observed on 5.0.201
 >          C:\Program Files\dotnet\sdk\5.0.201\Sdks\NuGet.Build.Tasks.Pack\build\NuGet.Build.Tasks.Pack.targets(221,5): error NU1012: Some included files are included under TFMs which are missing a platform version: net5.0-windows [D:\Dev\PackIssue\PackIssue\PackIssue.csproj]
 
 You can see the verbose output in the VerboseLog.txt file as well.
+
+# Resolution
+As indicated in the linked NuGet issue, the version can be specified by appending 7.0 to the target framework version `net5.0-windows7.0`
